@@ -39,15 +39,15 @@ print('\tto hold the dice. If you get a one, you lose\n')
 time.sleep(.5)
 print('\tall your temporary points but your sum does\n')
 time.sleep(.5)
-print('\tnot change if you have chose to hold the dice.\n')
+print('\tnot change since you have chose to roll the dice.\n')
 time.sleep(.5)
 print('''
 \tBy the way, this game also have deluxe and gold edition.
-\tThey have more content and more funny staff! There are 
-\talso different levels of the game and a better game
+\tThese versions have more content! There are 
+\talso different levels of the game and a better
 \t experience with the computer player!
 \t\t\t If you have any interest in these editions
-\t\t\t send an email to the email address below:
+\t\t\t send an email to:
 \t\t\t\t\t murong1213888@gmail.com''')
 while sumP1 < 50 and sumPC < 50:
 
@@ -68,7 +68,7 @@ while sumP1 < 50 and sumPC < 50:
                     time.sleep(.5)
                     print('\tYou rolled: ' + str(die1) + ' points.')
                     time.sleep(1)
-                    print('\tNow you have ' + str(round_po) + ' points in round. ')
+                    print('\tNow you have ' + str(round_po) + ' points in this round. ')
                     time.sleep(1)
                     print('\tNow you have ' + str(sumP1) + ' points.')
                     time.sleep(1)
@@ -78,7 +78,7 @@ while sumP1 < 50 and sumPC < 50:
                     time.sleep(1)
                     print('\tYou rolled: ' + str(die1) + ' point, you lost your turn.')
                     time.sleep(1)
-                    print('\tNow you have ' + str(round_po) + ' points in round. ')
+                    print('\tNow you have ' + str(round_po) + ' points in this round. ')
                     time.sleep(1)
                     print('\tNow you have ' + str(sumP1) + ' points.')
                     time.sleep(1)
@@ -119,7 +119,7 @@ while sumP1 < 50 and sumPC < 50:
                             time.sleep(1)
                             print('\tThe computer rolled: ' + str(die2) + ' points.')
                             time.sleep(1)
-                            print('\tNow the computer has ' + str(round_pc) + ' points in round. ')
+                            print('\tNow the computer has ' + str(round_pc) + ' points in this round. ')
                             time.sleep(1)
                             print('\tNow the computer has ' + str(sumPC) + ' points. ')
                             time.sleep(1)
@@ -130,7 +130,7 @@ while sumP1 < 50 and sumPC < 50:
                             round_pc = 0
                             print('\tThe computer rolled: ' + str(die2) + ' point, it lost its turn. ')
                             time.sleep(1)
-                            print('\tNow the computer has ' + str(round_pc) + ' points in round. ')
+                            print('\tNow the computer has ' + str(round_pc) + ' points in this round. ')
                             time.sleep(1)
                             print('\tNow the computer has ' + str(sumPC) + ' points.')
                             time.sleep(1)
@@ -143,7 +143,7 @@ while sumP1 < 50 and sumPC < 50:
                         round_pc = 0
                         tempPc = 0
 
-                        print('\tThe computer chose to hold, now computer has ' + str(sumPC) + ' points.')
+                        print('\tThe computer chose to hold, now the computer has ' + str(sumPC) + ' points.')
                         time.sleep(.5)
                         break
             if sumPC >= 50:
